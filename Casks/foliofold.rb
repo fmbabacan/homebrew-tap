@@ -1,7 +1,7 @@
 cask "foliofold" do
-  version "0.2.0"
-  sha256 arm:   "6921ba93838a5a81756522541b454a66e48e4abb5c7b44f3baa79fdf357f7203",
-         intel: "8b9867e54aad66ce4b53cfaa030eecbd77bf556740e0678fd0e6e53392b549ab"
+  version "0.3.0"
+  sha256 arm:   "5a92eee18ff9844bec2c8c3a3f5d789b3c0062d7a4a95aac170ebc7e8b1e86b0",
+         intel: "9b354e65a3aa1b5792ac8e0ce5617fad0dae1ac99064561ddf1e52c3021b5a06"
 
   on_arm do
     url "https://github.com/fmbabacan/FolioFold/releases/download/v#{version}/FolioFold-#{version}-arm64.zip"
