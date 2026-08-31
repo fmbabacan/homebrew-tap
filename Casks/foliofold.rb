@@ -14,12 +14,12 @@ cask "foliofold" do
   desc "Native, privacy-focused PDF and structured document workspace"
   homepage "https://github.com/fmbabacan/FolioFold"
 
-  depends_on macos: ">= :sequoia"
-
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :sequoia
 
   app "FolioFold.app"
 
