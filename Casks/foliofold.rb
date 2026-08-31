@@ -1,6 +1,6 @@
 cask "foliofold" do
   version "0.1.0"
-  sha256 arm: "d202c25031596a1f8600c02aa37bf863605ea9014977cdd0cbc9cb1afdcc6c57",
+  sha256 arm:   "d202c25031596a1f8600c02aa37bf863605ea9014977cdd0cbc9cb1afdcc6c57",
          intel: "8ff01d9c28c426c801afd84adccd6626156282184cc27c8fb66f1e88458b62fd"
 
   on_arm do
@@ -13,6 +13,8 @@ cask "foliofold" do
   name "FolioFold"
   desc "Native, privacy-focused PDF and structured document workspace"
   homepage "https://github.com/fmbabacan/FolioFold"
+
+  depends_on macos: ">= :sequoia"
 
   livecheck do
     url :url
